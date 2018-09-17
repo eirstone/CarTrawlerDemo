@@ -1,0 +1,6 @@
+module Pods_CarTrawlerDemo [system] {
+  umbrella header "Pods-CarTrawlerDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

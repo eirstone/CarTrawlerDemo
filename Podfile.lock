@@ -1,0 +1,24 @@
+PODS:
+  - JSONModel (1.7.0)
+  - OCHamcrest (3.0.1)
+  - OCMockito (1.1.0):
+    - OCHamcrest (~> 3.0)
+
+DEPENDENCIES:
+  - JSONModel
+  - OCMockito (~> 1.1.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - JSONModel
+    - OCHamcrest
+    - OCMockito
+
+SPEC CHECKSUMS:
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  OCHamcrest: e19857683e4eefab64b878668eac04c2f4567118
+  OCMockito: 9f1dd30cb7dde32c5ff2dffc5fc4df996d7bdefc
+
+PODFILE CHECKSUM: a1ce920c8e59617079ae6c9942716b70299fac63
+
+COCOAPODS: 1.5.0

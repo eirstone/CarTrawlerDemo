@@ -1,0 +1,1081 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		130FB93D214C390B006C697F /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 130FB93C214C390B006C697F /* BaseModel.m */; };
+		130FB954214CF8EA006C697F /* GetVehAvailRSCoreRemoteDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 130FB953214CF8EA006C697F /* GetVehAvailRSCoreRemoteDataManager.m */; };
+		130FB95B214CFE39006C697F /* CarTrawlerDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 130FB959214CFE39006C697F /* CarTrawlerDemo.xcdatamodeld */; };
+		138BBEFF214D0989007941C1 /* GetVehAvailRSCoreLocalDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBEFE214D0989007941C1 /* GetVehAvailRSCoreLocalDataManager.m */; };
+		138BBF33214D2BAF007941C1 /* VehicleDataInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF32214D2BAF007941C1 /* VehicleDataInteractor.m */; };
+		138BBF3E214D7FE8007941C1 /* VehicleListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF3D214D7FE8007941C1 /* VehicleListPresenter.m */; };
+		138BBF41214D80B2007941C1 /* VehicleListWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF40214D80B2007941C1 /* VehicleListWireframe.m */; };
+		138BBF4C214DC3EC007941C1 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF4B214DC3EC007941C1 /* CoreDataManager.m */; };
+		138BBF71214E88B2007941C1 /* CarDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF70214E88B2007941C1 /* CarDetailsViewController.m */; };
+		138BBF77214E9054007941C1 /* CarDetailWireFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF76214E9054007941C1 /* CarDetailWireFrame.m */; };
+		138BBF7B214E9113007941C1 /* CarDetailsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF7A214E9113007941C1 /* CarDetailsPresenter.m */; };
+		138BBF9F214EFF67007941C1 /* Booking+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF95214EFF67007941C1 /* Booking+CoreDataClass.m */; };
+		138BBFA0214EFF67007941C1 /* Booking+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF95214EFF67007941C1 /* Booking+CoreDataClass.m */; };
+		138BBFA1214EFF67007941C1 /* Booking+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF95214EFF67007941C1 /* Booking+CoreDataClass.m */; };
+		138BBFA2214EFF67007941C1 /* Booking+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF96214EFF67007941C1 /* Booking+CoreDataProperties.m */; };
+		138BBFA3214EFF67007941C1 /* Booking+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF96214EFF67007941C1 /* Booking+CoreDataProperties.m */; };
+		138BBFA4214EFF67007941C1 /* Booking+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF96214EFF67007941C1 /* Booking+CoreDataProperties.m */; };
+		138BBFA5214EFF67007941C1 /* Vehicle+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF99214EFF67007941C1 /* Vehicle+CoreDataClass.m */; };
+		138BBFA6214EFF67007941C1 /* Vehicle+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF99214EFF67007941C1 /* Vehicle+CoreDataClass.m */; };
+		138BBFA7214EFF67007941C1 /* Vehicle+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF99214EFF67007941C1 /* Vehicle+CoreDataClass.m */; };
+		138BBFA8214EFF67007941C1 /* Vehicle+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF9A214EFF67007941C1 /* Vehicle+CoreDataProperties.m */; };
+		138BBFA9214EFF67007941C1 /* Vehicle+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF9A214EFF67007941C1 /* Vehicle+CoreDataProperties.m */; };
+		138BBFAA214EFF67007941C1 /* Vehicle+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF9A214EFF67007941C1 /* Vehicle+CoreDataProperties.m */; };
+		138BBFAB214EFF67007941C1 /* VehicleVendor+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF9D214EFF67007941C1 /* VehicleVendor+CoreDataClass.m */; };
+		138BBFAC214EFF67007941C1 /* VehicleVendor+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF9D214EFF67007941C1 /* VehicleVendor+CoreDataClass.m */; };
+		138BBFAD214EFF67007941C1 /* VehicleVendor+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF9D214EFF67007941C1 /* VehicleVendor+CoreDataClass.m */; };
+		138BBFAE214EFF67007941C1 /* VehicleVendor+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF9E214EFF67007941C1 /* VehicleVendor+CoreDataProperties.m */; };
+		138BBFAF214EFF67007941C1 /* VehicleVendor+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF9E214EFF67007941C1 /* VehicleVendor+CoreDataProperties.m */; };
+		138BBFB0214EFF67007941C1 /* VehicleVendor+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBF9E214EFF67007941C1 /* VehicleVendor+CoreDataProperties.m */; };
+		138BBFB2214F0073007941C1 /* CarTrawlerDemoInteractorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBFB1214F0073007941C1 /* CarTrawlerDemoInteractorTests.m */; };
+		138BBFB4214F0819007941C1 /* CarTrawlerDemoPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBFB3214F0819007941C1 /* CarTrawlerDemoPresenterTests.m */; };
+		138BBFB6214F12A6007941C1 /* CarTrawlerDemoViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 138BBFB5214F12A6007941C1 /* CarTrawlerDemoViewControllerTests.m */; };
+		13B00D4A214BC8C7000FFF02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00D49214BC8C7000FFF02 /* AppDelegate.m */; };
+		13B00D4D214BC8C7000FFF02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00D4C214BC8C7000FFF02 /* ViewController.m */; };
+		13B00D50214BC8C7000FFF02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B00D4E214BC8C7000FFF02 /* Main.storyboard */; };
+		13B00D52214BC8C7000FFF02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B00D51214BC8C7000FFF02 /* Assets.xcassets */; };
+		13B00D55214BC8C7000FFF02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B00D53214BC8C7000FFF02 /* LaunchScreen.storyboard */; };
+		13B00D58214BC8C7000FFF02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00D57214BC8C7000FFF02 /* main.m */; };
+		13B00D6D214BC8C7000FFF02 /* CarTrawlerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00D6C214BC8C7000FFF02 /* CarTrawlerDemoUITests.m */; };
+		13B00D8F214BE640000FFF02 /* VehRentalCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00D8E214BE640000FFF02 /* VehRentalCore.m */; };
+		13B00D92214BE689000FFF02 /* ReturnLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00D91214BE689000FFF02 /* ReturnLocation.m */; };
+		13B00D95214BE6A3000FFF02 /* PickUpLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00D94214BE6A3000FFF02 /* PickUpLocation.m */; };
+		13B00D9A214BED98000FFF02 /* Vendor.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00D99214BED98000FFF02 /* Vendor.m */; };
+		13B00D9E214BEDEB000FFF02 /* VehicleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00D9D214BEDEB000FFF02 /* VehicleModel.m */; };
+		13B00DA1214BEE4C000FFF02 /* VehMakeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00DA0214BEE4C000FFF02 /* VehMakeModel.m */; };
+		13B00DA4214BEE9B000FFF02 /* TotalCharge.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00DA3214BEE9B000FFF02 /* TotalCharge.m */; };
+		13B00DAD214BEFF7000FFF02 /* VehVendorAvail.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00DAC214BEFF7000FFF02 /* VehVendorAvail.m */; };
+		13B00DB3214BF33D000FFF02 /* VehAvail.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00DB2214BF33D000FFF02 /* VehAvail.m */; };
+		13B00DB6214BF649000FFF02 /* VehAvailRSCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00DB5214BF649000FFF02 /* VehAvailRSCore.m */; };
+		6554E3162430AA02F8D103FD /* libPods-CarTrawlerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4A75B34716D2AA2309070B /* libPods-CarTrawlerDemo.a */; };
+		AFF8D42940CFD0B4287D923A /* libPods-CarTrawlerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80377326D2D1CADB843D8729 /* libPods-CarTrawlerDemoUITests.a */; };
+		E01CE41CE2974F6684B29838 /* libPods-CarTrawlerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0DB1BA2ACE4FB2306ED339 /* libPods-CarTrawlerDemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13B00D5E214BC8C7000FFF02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13B00D3D214BC8C6000FFF02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B00D44214BC8C6000FFF02;
+			remoteInfo = CarTrawlerDemo;
+		};
+		13B00D69214BC8C7000FFF02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13B00D3D214BC8C6000FFF02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B00D44214BC8C6000FFF02;
+			remoteInfo = CarTrawlerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		130FB93B214C390B006C697F /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		130FB93C214C390B006C697F /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		130FB952214CF8EA006C697F /* GetVehAvailRSCoreRemoteDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetVehAvailRSCoreRemoteDataManager.h; sourceTree = "<group>"; };
+		130FB953214CF8EA006C697F /* GetVehAvailRSCoreRemoteDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetVehAvailRSCoreRemoteDataManager.m; sourceTree = "<group>"; };
+		130FB95A214CFE39006C697F /* CarTrawlerDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarTrawlerDemo.xcdatamodel; sourceTree = "<group>"; };
+		138BBEFD214D0989007941C1 /* GetVehAvailRSCoreLocalDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetVehAvailRSCoreLocalDataManager.h; sourceTree = "<group>"; };
+		138BBEFE214D0989007941C1 /* GetVehAvailRSCoreLocalDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetVehAvailRSCoreLocalDataManager.m; sourceTree = "<group>"; };
+		138BBF31214D2BAF007941C1 /* VehicleDataInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VehicleDataInteractor.h; sourceTree = "<group>"; };
+		138BBF32214D2BAF007941C1 /* VehicleDataInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VehicleDataInteractor.m; sourceTree = "<group>"; };
+		138BBF3B214D7C41007941C1 /* VehicleListViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VehicleListViewProtocol.h; sourceTree = "<group>"; };
+		138BBF3C214D7FE8007941C1 /* VehicleListPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VehicleListPresenter.h; sourceTree = "<group>"; };
+		138BBF3D214D7FE8007941C1 /* VehicleListPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VehicleListPresenter.m; sourceTree = "<group>"; };
+		138BBF3F214D80B2007941C1 /* VehicleListWireframe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VehicleListWireframe.h; sourceTree = "<group>"; };
+		138BBF40214D80B2007941C1 /* VehicleListWireframe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VehicleListWireframe.m; sourceTree = "<group>"; };
+		138BBF4A214DC3EC007941C1 /* CoreDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		138BBF4B214DC3EC007941C1 /* CoreDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		138BBF6F214E88B2007941C1 /* CarDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarDetailsViewController.h; sourceTree = "<group>"; };
+		138BBF70214E88B2007941C1 /* CarDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarDetailsViewController.m; sourceTree = "<group>"; };
+		138BBF74214E8FE5007941C1 /* CarDetailViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarDetailViewProtocol.h; sourceTree = "<group>"; };
+		138BBF75214E9054007941C1 /* CarDetailWireFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarDetailWireFrame.h; sourceTree = "<group>"; };
+		138BBF76214E9054007941C1 /* CarDetailWireFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarDetailWireFrame.m; sourceTree = "<group>"; };
+		138BBF79214E9113007941C1 /* CarDetailsPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarDetailsPresenter.h; sourceTree = "<group>"; };
+		138BBF7A214E9113007941C1 /* CarDetailsPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarDetailsPresenter.m; sourceTree = "<group>"; };
+		138BBF93214EFF67007941C1 /* Booking+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Booking+CoreDataProperties.h"; sourceTree = "<group>"; };
+		138BBF94214EFF67007941C1 /* Booking+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Booking+CoreDataClass.h"; sourceTree = "<group>"; };
+		138BBF95214EFF67007941C1 /* Booking+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Booking+CoreDataClass.m"; sourceTree = "<group>"; };
+		138BBF96214EFF67007941C1 /* Booking+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Booking+CoreDataProperties.m"; sourceTree = "<group>"; };
+		138BBF97214EFF67007941C1 /* Vehicle+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vehicle+CoreDataProperties.h"; sourceTree = "<group>"; };
+		138BBF98214EFF67007941C1 /* Vehicle+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vehicle+CoreDataClass.h"; sourceTree = "<group>"; };
+		138BBF99214EFF67007941C1 /* Vehicle+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vehicle+CoreDataClass.m"; sourceTree = "<group>"; };
+		138BBF9A214EFF67007941C1 /* Vehicle+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vehicle+CoreDataProperties.m"; sourceTree = "<group>"; };
+		138BBF9B214EFF67007941C1 /* VehicleVendor+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VehicleVendor+CoreDataProperties.h"; sourceTree = "<group>"; };
+		138BBF9C214EFF67007941C1 /* VehicleVendor+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VehicleVendor+CoreDataClass.h"; sourceTree = "<group>"; };
+		138BBF9D214EFF67007941C1 /* VehicleVendor+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VehicleVendor+CoreDataClass.m"; sourceTree = "<group>"; };
+		138BBF9E214EFF67007941C1 /* VehicleVendor+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VehicleVendor+CoreDataProperties.m"; sourceTree = "<group>"; };
+		138BBFB1214F0073007941C1 /* CarTrawlerDemoInteractorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarTrawlerDemoInteractorTests.m; sourceTree = "<group>"; };
+		138BBFB3214F0819007941C1 /* CarTrawlerDemoPresenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarTrawlerDemoPresenterTests.m; sourceTree = "<group>"; };
+		138BBFB5214F12A6007941C1 /* CarTrawlerDemoViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarTrawlerDemoViewControllerTests.m; sourceTree = "<group>"; };
+		13B00D45214BC8C6000FFF02 /* CarTrawlerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarTrawlerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B00D48214BC8C6000FFF02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13B00D49214BC8C7000FFF02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13B00D4B214BC8C7000FFF02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13B00D4C214BC8C7000FFF02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13B00D4F214BC8C7000FFF02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13B00D51214BC8C7000FFF02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13B00D54214BC8C7000FFF02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13B00D56214BC8C7000FFF02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B00D57214BC8C7000FFF02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13B00D5D214BC8C7000FFF02 /* CarTrawlerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarTrawlerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B00D63214BC8C7000FFF02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B00D68214BC8C7000FFF02 /* CarTrawlerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarTrawlerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B00D6C214BC8C7000FFF02 /* CarTrawlerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarTrawlerDemoUITests.m; sourceTree = "<group>"; };
+		13B00D6E214BC8C7000FFF02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B00D8D214BE640000FFF02 /* VehRentalCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VehRentalCore.h; sourceTree = "<group>"; };
+		13B00D8E214BE640000FFF02 /* VehRentalCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VehRentalCore.m; sourceTree = "<group>"; };
+		13B00D90214BE689000FFF02 /* ReturnLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReturnLocation.h; sourceTree = "<group>"; };
+		13B00D91214BE689000FFF02 /* ReturnLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReturnLocation.m; sourceTree = "<group>"; };
+		13B00D93214BE6A3000FFF02 /* PickUpLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickUpLocation.h; sourceTree = "<group>"; };
+		13B00D94214BE6A3000FFF02 /* PickUpLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickUpLocation.m; sourceTree = "<group>"; };
+		13B00D98214BED98000FFF02 /* Vendor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor.h; sourceTree = "<group>"; };
+		13B00D99214BED98000FFF02 /* Vendor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor.m; sourceTree = "<group>"; };
+		13B00D9C214BEDEB000FFF02 /* VehicleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VehicleModel.h; sourceTree = "<group>"; };
+		13B00D9D214BEDEB000FFF02 /* VehicleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VehicleModel.m; sourceTree = "<group>"; };
+		13B00D9F214BEE4C000FFF02 /* VehMakeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VehMakeModel.h; sourceTree = "<group>"; };
+		13B00DA0214BEE4C000FFF02 /* VehMakeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VehMakeModel.m; sourceTree = "<group>"; };
+		13B00DA2214BEE9B000FFF02 /* TotalCharge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TotalCharge.h; sourceTree = "<group>"; };
+		13B00DA3214BEE9B000FFF02 /* TotalCharge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TotalCharge.m; sourceTree = "<group>"; };
+		13B00DAB214BEFF7000FFF02 /* VehVendorAvail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VehVendorAvail.h; sourceTree = "<group>"; };
+		13B00DAC214BEFF7000FFF02 /* VehVendorAvail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VehVendorAvail.m; sourceTree = "<group>"; };
+		13B00DB1214BF33D000FFF02 /* VehAvail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VehAvail.h; sourceTree = "<group>"; };
+		13B00DB2214BF33D000FFF02 /* VehAvail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VehAvail.m; sourceTree = "<group>"; };
+		13B00DB4214BF649000FFF02 /* VehAvailRSCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VehAvailRSCore.h; sourceTree = "<group>"; };
+		13B00DB5214BF649000FFF02 /* VehAvailRSCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VehAvailRSCore.m; sourceTree = "<group>"; };
+		2BBCBD836E738E0C858633D4 /* Pods-CarTrawlerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarTrawlerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarTrawlerDemo/Pods-CarTrawlerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3B4A75B34716D2AA2309070B /* libPods-CarTrawlerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarTrawlerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D7D7FE21D48616CC8A10FA /* Pods-CarTrawlerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarTrawlerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarTrawlerDemoTests/Pods-CarTrawlerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80377326D2D1CADB843D8729 /* libPods-CarTrawlerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarTrawlerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0DB1BA2ACE4FB2306ED339 /* libPods-CarTrawlerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarTrawlerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9191DD96B28064DE82F17494 /* Pods-CarTrawlerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarTrawlerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarTrawlerDemoTests/Pods-CarTrawlerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		AAEAEC0EAAFCD1F4ACB1E2E1 /* Pods-CarTrawlerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarTrawlerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarTrawlerDemoUITests/Pods-CarTrawlerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B999B577A46FFC7C135FD3D7 /* Pods-CarTrawlerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarTrawlerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarTrawlerDemoUITests/Pods-CarTrawlerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9D97B4FB22295A840A58DFF /* Pods-CarTrawlerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarTrawlerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarTrawlerDemo/Pods-CarTrawlerDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B00D42214BC8C6000FFF02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6554E3162430AA02F8D103FD /* libPods-CarTrawlerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B00D5A214BC8C7000FFF02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E01CE41CE2974F6684B29838 /* libPods-CarTrawlerDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B00D65214BC8C7000FFF02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF8D42940CFD0B4287D923A /* libPods-CarTrawlerDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		130FB941214C697B006C697F /* car-modules */ = {
+			isa = PBXGroup;
+			children = (
+				130FB943214C69BF006C697F /* carDetails */,
+				130FB942214C69A5006C697F /* carList */,
+			);
+			path = "car-modules";
+			sourceTree = "<group>";
+		};
+		130FB942214C69A5006C697F /* carList */ = {
+			isa = PBXGroup;
+			children = (
+				130FB948214C6A06006C697F /* view */,
+				138BBF36214D6C38007941C1 /* presenter */,
+				130FB94A214CF6A9006C697F /* dataManager */,
+				130FB946214C69E5006C697F /* entity */,
+				138BBF3A214D78C1007941C1 /* wireframe */,
+				130FB945214C69D3006C697F /* interactor */,
+				130FB944214C69C8006C697F /* protocols */,
+			);
+			path = carList;
+			sourceTree = "<group>";
+		};
+		130FB943214C69BF006C697F /* carDetails */ = {
+			isa = PBXGroup;
+			children = (
+				138BBF78214E90E6007941C1 /* presenter */,
+				138BBF72214E8EF6007941C1 /* wireframe */,
+				138BBF6E214E8896007941C1 /* view */,
+				138BBF73214E8FC7007941C1 /* protocols */,
+			);
+			path = carDetails;
+			sourceTree = "<group>";
+		};
+		130FB944214C69C8006C697F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				138BBF3B214D7C41007941C1 /* VehicleListViewProtocol.h */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		130FB945214C69D3006C697F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				138BBF31214D2BAF007941C1 /* VehicleDataInteractor.h */,
+				138BBF32214D2BAF007941C1 /* VehicleDataInteractor.m */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		130FB946214C69E5006C697F /* entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		130FB948214C6A06006C697F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				13B00D4B214BC8C7000FFF02 /* ViewController.h */,
+				13B00D4C214BC8C7000FFF02 /* ViewController.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		130FB94A214CF6A9006C697F /* dataManager */ = {
+			isa = PBXGroup;
+			children = (
+				130FB94C214CF6B4006C697F /* local */,
+				130FB94B214CF6AF006C697F /* remote */,
+			);
+			path = dataManager;
+			sourceTree = "<group>";
+		};
+		130FB94B214CF6AF006C697F /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				130FB952214CF8EA006C697F /* GetVehAvailRSCoreRemoteDataManager.h */,
+				130FB953214CF8EA006C697F /* GetVehAvailRSCoreRemoteDataManager.m */,
+			);
+			path = remote;
+			sourceTree = "<group>";
+		};
+		130FB94C214CF6B4006C697F /* local */ = {
+			isa = PBXGroup;
+			children = (
+				138BBEFD214D0989007941C1 /* GetVehAvailRSCoreLocalDataManager.h */,
+				138BBEFE214D0989007941C1 /* GetVehAvailRSCoreLocalDataManager.m */,
+				138BBF4A214DC3EC007941C1 /* CoreDataManager.h */,
+				138BBF4B214DC3EC007941C1 /* CoreDataManager.m */,
+			);
+			path = local;
+			sourceTree = "<group>";
+		};
+		138BBF36214D6C38007941C1 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				138BBF3C214D7FE8007941C1 /* VehicleListPresenter.h */,
+				138BBF3D214D7FE8007941C1 /* VehicleListPresenter.m */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		138BBF3A214D78C1007941C1 /* wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				138BBF3F214D80B2007941C1 /* VehicleListWireframe.h */,
+				138BBF40214D80B2007941C1 /* VehicleListWireframe.m */,
+			);
+			path = wireframe;
+			sourceTree = "<group>";
+		};
+		138BBF6E214E8896007941C1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				138BBF6F214E88B2007941C1 /* CarDetailsViewController.h */,
+				138BBF70214E88B2007941C1 /* CarDetailsViewController.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		138BBF72214E8EF6007941C1 /* wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				138BBF75214E9054007941C1 /* CarDetailWireFrame.h */,
+				138BBF76214E9054007941C1 /* CarDetailWireFrame.m */,
+			);
+			path = wireframe;
+			sourceTree = "<group>";
+		};
+		138BBF73214E8FC7007941C1 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				138BBF74214E8FE5007941C1 /* CarDetailViewProtocol.h */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		138BBF78214E90E6007941C1 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				138BBF79214E9113007941C1 /* CarDetailsPresenter.h */,
+				138BBF7A214E9113007941C1 /* CarDetailsPresenter.m */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		138BBF80214EFED5007941C1 /* coredata */ = {
+			isa = PBXGroup;
+			children = (
+				138BBF93214EFF67007941C1 /* Booking+CoreDataProperties.h */,
+				138BBF94214EFF67007941C1 /* Booking+CoreDataClass.h */,
+				138BBF95214EFF67007941C1 /* Booking+CoreDataClass.m */,
+				138BBF96214EFF67007941C1 /* Booking+CoreDataProperties.m */,
+				138BBF97214EFF67007941C1 /* Vehicle+CoreDataProperties.h */,
+				138BBF98214EFF67007941C1 /* Vehicle+CoreDataClass.h */,
+				138BBF99214EFF67007941C1 /* Vehicle+CoreDataClass.m */,
+				138BBF9A214EFF67007941C1 /* Vehicle+CoreDataProperties.m */,
+				138BBF9B214EFF67007941C1 /* VehicleVendor+CoreDataProperties.h */,
+				138BBF9C214EFF67007941C1 /* VehicleVendor+CoreDataClass.h */,
+				138BBF9D214EFF67007941C1 /* VehicleVendor+CoreDataClass.m */,
+				138BBF9E214EFF67007941C1 /* VehicleVendor+CoreDataProperties.m */,
+			);
+			path = coredata;
+			sourceTree = "<group>";
+		};
+		13B00D3C214BC8C6000FFF02 = {
+			isa = PBXGroup;
+			children = (
+				13B00D47214BC8C6000FFF02 /* CarTrawlerDemo */,
+				13B00D60214BC8C7000FFF02 /* CarTrawlerDemoTests */,
+				13B00D6B214BC8C7000FFF02 /* CarTrawlerDemoUITests */,
+				13B00D46214BC8C6000FFF02 /* Products */,
+				7AC6D1AEF94AAE93CF8F158B /* Pods */,
+				3306117FE4396F5A308D2628 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13B00D46214BC8C6000FFF02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B00D45214BC8C6000FFF02 /* CarTrawlerDemo.app */,
+				13B00D5D214BC8C7000FFF02 /* CarTrawlerDemoTests.xctest */,
+				13B00D68214BC8C7000FFF02 /* CarTrawlerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13B00D47214BC8C6000FFF02 /* CarTrawlerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				13B00D7A214BC938000FFF02 /* entities */,
+				130FB941214C697B006C697F /* car-modules */,
+				13B00D48214BC8C6000FFF02 /* AppDelegate.h */,
+				13B00D49214BC8C7000FFF02 /* AppDelegate.m */,
+				13B00D4E214BC8C7000FFF02 /* Main.storyboard */,
+				13B00D51214BC8C7000FFF02 /* Assets.xcassets */,
+				13B00D53214BC8C7000FFF02 /* LaunchScreen.storyboard */,
+				13B00D56214BC8C7000FFF02 /* Info.plist */,
+				13B00D57214BC8C7000FFF02 /* main.m */,
+				130FB959214CFE39006C697F /* CarTrawlerDemo.xcdatamodeld */,
+			);
+			path = CarTrawlerDemo;
+			sourceTree = "<group>";
+		};
+		13B00D60214BC8C7000FFF02 /* CarTrawlerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				138BBFB1214F0073007941C1 /* CarTrawlerDemoInteractorTests.m */,
+				138BBFB3214F0819007941C1 /* CarTrawlerDemoPresenterTests.m */,
+				138BBFB5214F12A6007941C1 /* CarTrawlerDemoViewControllerTests.m */,
+				13B00D63214BC8C7000FFF02 /* Info.plist */,
+			);
+			path = CarTrawlerDemoTests;
+			sourceTree = "<group>";
+		};
+		13B00D6B214BC8C7000FFF02 /* CarTrawlerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13B00D6C214BC8C7000FFF02 /* CarTrawlerDemoUITests.m */,
+				13B00D6E214BC8C7000FFF02 /* Info.plist */,
+			);
+			path = CarTrawlerDemoUITests;
+			sourceTree = "<group>";
+		};
+		13B00D7A214BC938000FFF02 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				138BBF80214EFED5007941C1 /* coredata */,
+				130FB93B214C390B006C697F /* BaseModel.h */,
+				130FB93C214C390B006C697F /* BaseModel.m */,
+				13B00D8D214BE640000FFF02 /* VehRentalCore.h */,
+				13B00D8E214BE640000FFF02 /* VehRentalCore.m */,
+				13B00DB4214BF649000FFF02 /* VehAvailRSCore.h */,
+				13B00DB5214BF649000FFF02 /* VehAvailRSCore.m */,
+				13B00D97214BED84000FFF02 /* VehRentalCore */,
+				13B00D96214BED52000FFF02 /* VehVendorAvails */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		13B00D96214BED52000FFF02 /* VehVendorAvails */ = {
+			isa = PBXGroup;
+			children = (
+				13B00D98214BED98000FFF02 /* Vendor.h */,
+				13B00D99214BED98000FFF02 /* Vendor.m */,
+				13B00DAB214BEFF7000FFF02 /* VehVendorAvail.h */,
+				13B00DAC214BEFF7000FFF02 /* VehVendorAvail.m */,
+				13B00D9B214BEDC6000FFF02 /* VehAvails */,
+			);
+			path = VehVendorAvails;
+			sourceTree = "<group>";
+		};
+		13B00D97214BED84000FFF02 /* VehRentalCore */ = {
+			isa = PBXGroup;
+			children = (
+				13B00D90214BE689000FFF02 /* ReturnLocation.h */,
+				13B00D91214BE689000FFF02 /* ReturnLocation.m */,
+				13B00D93214BE6A3000FFF02 /* PickUpLocation.h */,
+				13B00D94214BE6A3000FFF02 /* PickUpLocation.m */,
+			);
+			path = VehRentalCore;
+			sourceTree = "<group>";
+		};
+		13B00D9B214BEDC6000FFF02 /* VehAvails */ = {
+			isa = PBXGroup;
+			children = (
+				13B00D9C214BEDEB000FFF02 /* VehicleModel.h */,
+				13B00D9D214BEDEB000FFF02 /* VehicleModel.m */,
+				13B00D9F214BEE4C000FFF02 /* VehMakeModel.h */,
+				13B00DA0214BEE4C000FFF02 /* VehMakeModel.m */,
+				13B00DA2214BEE9B000FFF02 /* TotalCharge.h */,
+				13B00DA3214BEE9B000FFF02 /* TotalCharge.m */,
+				13B00DB1214BF33D000FFF02 /* VehAvail.h */,
+				13B00DB2214BF33D000FFF02 /* VehAvail.m */,
+			);
+			path = VehAvails;
+			sourceTree = "<group>";
+		};
+		3306117FE4396F5A308D2628 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B4A75B34716D2AA2309070B /* libPods-CarTrawlerDemo.a */,
+				8A0DB1BA2ACE4FB2306ED339 /* libPods-CarTrawlerDemoTests.a */,
+				80377326D2D1CADB843D8729 /* libPods-CarTrawlerDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AC6D1AEF94AAE93CF8F158B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BBCBD836E738E0C858633D4 /* Pods-CarTrawlerDemo.debug.xcconfig */,
+				B9D97B4FB22295A840A58DFF /* Pods-CarTrawlerDemo.release.xcconfig */,
+				60D7D7FE21D48616CC8A10FA /* Pods-CarTrawlerDemoTests.debug.xcconfig */,
+				9191DD96B28064DE82F17494 /* Pods-CarTrawlerDemoTests.release.xcconfig */,
+				AAEAEC0EAAFCD1F4ACB1E2E1 /* Pods-CarTrawlerDemoUITests.debug.xcconfig */,
+				B999B577A46FFC7C135FD3D7 /* Pods-CarTrawlerDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B00D44214BC8C6000FFF02 /* CarTrawlerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B00D71214BC8C7000FFF02 /* Build configuration list for PBXNativeTarget "CarTrawlerDemo" */;
+			buildPhases = (
+				989BEE461CDB82AC679D12AF /* [CP] Check Pods Manifest.lock */,
+				13B00D41214BC8C6000FFF02 /* Sources */,
+				13B00D42214BC8C6000FFF02 /* Frameworks */,
+				13B00D43214BC8C6000FFF02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarTrawlerDemo;
+			productName = CarTrawlerDemo;
+			productReference = 13B00D45214BC8C6000FFF02 /* CarTrawlerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13B00D5C214BC8C7000FFF02 /* CarTrawlerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B00D74214BC8C7000FFF02 /* Build configuration list for PBXNativeTarget "CarTrawlerDemoTests" */;
+			buildPhases = (
+				497E78D7E508B09F227FE657 /* [CP] Check Pods Manifest.lock */,
+				13B00D59214BC8C7000FFF02 /* Sources */,
+				13B00D5A214BC8C7000FFF02 /* Frameworks */,
+				13B00D5B214BC8C7000FFF02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13B00D5F214BC8C7000FFF02 /* PBXTargetDependency */,
+			);
+			name = CarTrawlerDemoTests;
+			productName = CarTrawlerDemoTests;
+			productReference = 13B00D5D214BC8C7000FFF02 /* CarTrawlerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B00D67214BC8C7000FFF02 /* CarTrawlerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B00D77214BC8C7000FFF02 /* Build configuration list for PBXNativeTarget "CarTrawlerDemoUITests" */;
+			buildPhases = (
+				528C7C05809F710F379C826C /* [CP] Check Pods Manifest.lock */,
+				13B00D64214BC8C7000FFF02 /* Sources */,
+				13B00D65214BC8C7000FFF02 /* Frameworks */,
+				13B00D66214BC8C7000FFF02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13B00D6A214BC8C7000FFF02 /* PBXTargetDependency */,
+			);
+			name = CarTrawlerDemoUITests;
+			productName = CarTrawlerDemoUITests;
+			productReference = 13B00D68214BC8C7000FFF02 /* CarTrawlerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13B00D3D214BC8C6000FFF02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = lei;
+				TargetAttributes = {
+					13B00D44214BC8C6000FFF02 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					13B00D5C214BC8C7000FFF02 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 13B00D44214BC8C6000FFF02;
+					};
+					13B00D67214BC8C7000FFF02 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 13B00D44214BC8C6000FFF02;
+					};
+				};
+			};
+			buildConfigurationList = 13B00D40214BC8C6000FFF02 /* Build configuration list for PBXProject "CarTrawlerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13B00D3C214BC8C6000FFF02;
+			productRefGroup = 13B00D46214BC8C6000FFF02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B00D44214BC8C6000FFF02 /* CarTrawlerDemo */,
+				13B00D5C214BC8C7000FFF02 /* CarTrawlerDemoTests */,
+				13B00D67214BC8C7000FFF02 /* CarTrawlerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B00D43214BC8C6000FFF02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B00D55214BC8C7000FFF02 /* LaunchScreen.storyboard in Resources */,
+				13B00D52214BC8C7000FFF02 /* Assets.xcassets in Resources */,
+				13B00D50214BC8C7000FFF02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B00D5B214BC8C7000FFF02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B00D66214BC8C7000FFF02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		497E78D7E508B09F227FE657 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarTrawlerDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		528C7C05809F710F379C826C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarTrawlerDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		989BEE461CDB82AC679D12AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarTrawlerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B00D41214BC8C6000FFF02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B00DAD214BEFF7000FFF02 /* VehVendorAvail.m in Sources */,
+				138BBFAB214EFF67007941C1 /* VehicleVendor+CoreDataClass.m in Sources */,
+				13B00D92214BE689000FFF02 /* ReturnLocation.m in Sources */,
+				13B00D4D214BC8C7000FFF02 /* ViewController.m in Sources */,
+				138BBF9F214EFF67007941C1 /* Booking+CoreDataClass.m in Sources */,
+				13B00DA1214BEE4C000FFF02 /* VehMakeModel.m in Sources */,
+				13B00D9A214BED98000FFF02 /* Vendor.m in Sources */,
+				13B00DB6214BF649000FFF02 /* VehAvailRSCore.m in Sources */,
+				138BBF71214E88B2007941C1 /* CarDetailsViewController.m in Sources */,
+				138BBEFF214D0989007941C1 /* GetVehAvailRSCoreLocalDataManager.m in Sources */,
+				138BBFA5214EFF67007941C1 /* Vehicle+CoreDataClass.m in Sources */,
+				13B00DB3214BF33D000FFF02 /* VehAvail.m in Sources */,
+				13B00DA4214BEE9B000FFF02 /* TotalCharge.m in Sources */,
+				13B00D95214BE6A3000FFF02 /* PickUpLocation.m in Sources */,
+				13B00D9E214BEDEB000FFF02 /* VehicleModel.m in Sources */,
+				138BBF7B214E9113007941C1 /* CarDetailsPresenter.m in Sources */,
+				130FB954214CF8EA006C697F /* GetVehAvailRSCoreRemoteDataManager.m in Sources */,
+				138BBF3E214D7FE8007941C1 /* VehicleListPresenter.m in Sources */,
+				138BBF77214E9054007941C1 /* CarDetailWireFrame.m in Sources */,
+				138BBF33214D2BAF007941C1 /* VehicleDataInteractor.m in Sources */,
+				138BBFAE214EFF67007941C1 /* VehicleVendor+CoreDataProperties.m in Sources */,
+				130FB95B214CFE39006C697F /* CarTrawlerDemo.xcdatamodeld in Sources */,
+				138BBF4C214DC3EC007941C1 /* CoreDataManager.m in Sources */,
+				138BBF41214D80B2007941C1 /* VehicleListWireframe.m in Sources */,
+				138BBFA8214EFF67007941C1 /* Vehicle+CoreDataProperties.m in Sources */,
+				130FB93D214C390B006C697F /* BaseModel.m in Sources */,
+				13B00D8F214BE640000FFF02 /* VehRentalCore.m in Sources */,
+				13B00D58214BC8C7000FFF02 /* main.m in Sources */,
+				13B00D4A214BC8C7000FFF02 /* AppDelegate.m in Sources */,
+				138BBFA2214EFF67007941C1 /* Booking+CoreDataProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B00D59214BC8C7000FFF02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138BBFB4214F0819007941C1 /* CarTrawlerDemoPresenterTests.m in Sources */,
+				138BBFA0214EFF67007941C1 /* Booking+CoreDataClass.m in Sources */,
+				138BBFA9214EFF67007941C1 /* Vehicle+CoreDataProperties.m in Sources */,
+				138BBFB6214F12A6007941C1 /* CarTrawlerDemoViewControllerTests.m in Sources */,
+				138BBFAC214EFF67007941C1 /* VehicleVendor+CoreDataClass.m in Sources */,
+				138BBFA6214EFF67007941C1 /* Vehicle+CoreDataClass.m in Sources */,
+				138BBFB2214F0073007941C1 /* CarTrawlerDemoInteractorTests.m in Sources */,
+				138BBFAF214EFF67007941C1 /* VehicleVendor+CoreDataProperties.m in Sources */,
+				138BBFA3214EFF67007941C1 /* Booking+CoreDataProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B00D64214BC8C7000FFF02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138BBFB0214EFF67007941C1 /* VehicleVendor+CoreDataProperties.m in Sources */,
+				138BBFAD214EFF67007941C1 /* VehicleVendor+CoreDataClass.m in Sources */,
+				13B00D6D214BC8C7000FFF02 /* CarTrawlerDemoUITests.m in Sources */,
+				138BBFA1214EFF67007941C1 /* Booking+CoreDataClass.m in Sources */,
+				138BBFAA214EFF67007941C1 /* Vehicle+CoreDataProperties.m in Sources */,
+				138BBFA7214EFF67007941C1 /* Vehicle+CoreDataClass.m in Sources */,
+				138BBFA4214EFF67007941C1 /* Booking+CoreDataProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13B00D5F214BC8C7000FFF02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B00D44214BC8C6000FFF02 /* CarTrawlerDemo */;
+			targetProxy = 13B00D5E214BC8C7000FFF02 /* PBXContainerItemProxy */;
+		};
+		13B00D6A214BC8C7000FFF02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B00D44214BC8C6000FFF02 /* CarTrawlerDemo */;
+			targetProxy = 13B00D69214BC8C7000FFF02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B00D4E214BC8C7000FFF02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B00D4F214BC8C7000FFF02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13B00D53214BC8C7000FFF02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B00D54214BC8C7000FFF02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B00D6F214BC8C7000FFF02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13B00D70214BC8C7000FFF02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13B00D72214BC8C7000FFF02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BBCBD836E738E0C858633D4 /* Pods-CarTrawlerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CarTrawlerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lei.CarTrawlerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13B00D73214BC8C7000FFF02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D97B4FB22295A840A58DFF /* Pods-CarTrawlerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CarTrawlerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lei.CarTrawlerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13B00D75214BC8C7000FFF02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D7D7FE21D48616CC8A10FA /* Pods-CarTrawlerDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CarTrawlerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lei.CarTrawlerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarTrawlerDemo.app/CarTrawlerDemo";
+			};
+			name = Debug;
+		};
+		13B00D76214BC8C7000FFF02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9191DD96B28064DE82F17494 /* Pods-CarTrawlerDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CarTrawlerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lei.CarTrawlerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarTrawlerDemo.app/CarTrawlerDemo";
+			};
+			name = Release;
+		};
+		13B00D78214BC8C7000FFF02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAEAEC0EAAFCD1F4ACB1E2E1 /* Pods-CarTrawlerDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVUY2GL93S;
+				INFOPLIST_FILE = CarTrawlerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lei.CarTrawlerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarTrawlerDemo;
+			};
+			name = Debug;
+		};
+		13B00D79214BC8C7000FFF02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B999B577A46FFC7C135FD3D7 /* Pods-CarTrawlerDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVUY2GL93S;
+				INFOPLIST_FILE = CarTrawlerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lei.CarTrawlerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarTrawlerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B00D40214BC8C6000FFF02 /* Build configuration list for PBXProject "CarTrawlerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B00D6F214BC8C7000FFF02 /* Debug */,
+				13B00D70214BC8C7000FFF02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B00D71214BC8C7000FFF02 /* Build configuration list for PBXNativeTarget "CarTrawlerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B00D72214BC8C7000FFF02 /* Debug */,
+				13B00D73214BC8C7000FFF02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B00D74214BC8C7000FFF02 /* Build configuration list for PBXNativeTarget "CarTrawlerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B00D75214BC8C7000FFF02 /* Debug */,
+				13B00D76214BC8C7000FFF02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B00D77214BC8C7000FFF02 /* Build configuration list for PBXNativeTarget "CarTrawlerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B00D78214BC8C7000FFF02 /* Debug */,
+				13B00D79214BC8C7000FFF02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		130FB959214CFE39006C697F /* CarTrawlerDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				130FB95A214CFE39006C697F /* CarTrawlerDemo.xcdatamodel */,
+			);
+			currentVersion = 130FB95A214CFE39006C697F /* CarTrawlerDemo.xcdatamodel */;
+			path = CarTrawlerDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 13B00D3D214BC8C6000FFF02 /* Project object */;
+}

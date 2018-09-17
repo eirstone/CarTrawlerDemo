@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.12.1" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Booking" representedClassName="Booking" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="pickUpDateTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="pickUpLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="returnDateTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="returnLocation" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Vehicle" representedClassName="Vehicle" syncable="YES">
+        <attribute name="airConditionInd" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="baggageQuantity" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="codeContext" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currencyCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doorCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="driveType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="estimatedTotalAmount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fuelType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="passengerQuantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pictureURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rateTotalAmount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transmissionType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vehMakeModel" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="vehicleVendor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VehicleVendor" inverseName="vehicle" inverseEntity="VehicleVendor" syncable="YES"/>
+    </entity>
+    <entity name="VehicleVendor" representedClassName="VehicleVendor" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="vendorCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vendorName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="vehicle" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Vehicle" inverseName="vehicleVendor" inverseEntity="Vehicle" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Booking" positionX="-707.1484375" positionY="-78.453125" width="128" height="120"/>
+        <element name="Vehicle" positionX="-362.1796875" positionY="-51.54296875" width="128" height="285"/>
+        <element name="VehicleVendor" positionX="-667.30859375" positionY="106.23046875" width="128" height="105"/>
+    </elements>
+</model>
