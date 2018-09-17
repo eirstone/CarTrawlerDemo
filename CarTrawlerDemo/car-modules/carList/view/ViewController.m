@@ -74,19 +74,19 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentififer];
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellIdentififer];
-        cell.textLabel.numberOfLines = 0;
-        cell.detailTextLabel.numberOfLines = 0;
+        cell.detailTextLabel.numberOfLines = 2;
     }
     
     if (indexPath.section == 0) {
         if (indexPath.row == 0) {
+            cell.textLabel.numberOfLines = 0;
             cell.textLabel.text =  [self.presenter getBookingInformation];
             cell.imageView.image = nil;
             cell.detailTextLabel.text = @"";
         }
     }
     else{
-        
+        cell.textLabel.numberOfLines = 1;
         NSDictionary *dict = [self.presenter getVehicleText:self.sorting atIndexPath:indexPath];
 
         cell.textLabel.text = dict[@"title"];
