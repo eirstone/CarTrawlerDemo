@@ -206,7 +206,6 @@
 				130FB948214C6A06006C697F /* view */,
 				138BBF36214D6C38007941C1 /* presenter */,
 				130FB94A214CF6A9006C697F /* dataManager */,
-				130FB946214C69E5006C697F /* entity */,
 				138BBF3A214D78C1007941C1 /* wireframe */,
 				130FB945214C69D3006C697F /* interactor */,
 				130FB944214C69C8006C697F /* protocols */,
@@ -240,13 +239,6 @@
 				138BBF32214D2BAF007941C1 /* VehicleDataInteractor.m */,
 			);
 			path = interactor;
-			sourceTree = "<group>";
-		};
-		130FB946214C69E5006C697F /* entity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = entity;
 			sourceTree = "<group>";
 		};
 		130FB948214C6A06006C697F /* view */ = {
